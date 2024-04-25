@@ -42,10 +42,10 @@ class LoginScreen extends StatelessWidget {
                   print("Vacio");
                   return;
                 }
-                if ((inputUser == "Ale") && (inputPass == "123") ){
+                if ((inputUser == "Ana") && (inputPass == "123") ){
                   print("Inicio de sesión exitoso");
                   //context.go('/home'); //opcion 1 voy directo
-                  context.push('/home');//opcion 2 se apila, hace hijos
+                  context.push('/home', extra: userController.text);//opcion 2 se apila, hace hijos
                 }
                 else{
                   print("Inicio de sesión fallido");
