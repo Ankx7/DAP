@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,12 +12,13 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
+        backgroundColor:Color.fromARGB(255, 255, 255, 255),
         body: Center( 
           child:Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-            Text("Hello", style: TextStyle(fontSize: 40),), 
-            Text("World", style: TextStyle(fontSize: 40),),
+            Text("Hello", style: TextStyle(fontSize: 40, color: Color.fromARGB(255, 96, 71, 139)),), 
+            Text("World", style: TextStyle(fontSize: 40, color: Color.fromARGB(255, 118, 87, 170)),),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
