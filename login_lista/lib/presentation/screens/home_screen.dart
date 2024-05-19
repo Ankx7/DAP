@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class HomeScreen extends StatelessWidget {
   String username;
   HomeScreen({super.key, this.username = ''});
@@ -11,7 +12,10 @@ class HomeScreen extends StatelessWidget {
         title: const Text('Home', ),
       ),
       body: Center(
-        child: Text('Welcome $username', style: TextStyle(fontSize: 40, color: Color.fromARGB(255, 70, 40, 122)),), 
+        child: Text('Welcome $username', style: const TextStyle(
+          fontSize: 40,
+           color: Color(0xFF155D94),
+            fontWeight: FontWeight.w600),), 
       ),
     );
   }

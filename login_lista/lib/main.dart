@@ -4,7 +4,8 @@ import 'package:login_ana/core/app_router.dart';
 void main() {
   runApp(MainApp());
 
-/*  List<String> users = [
+/* ------ EJEMPLO CLASE ----------
+ List<String> users = [
     'Ale',
     'Juan',
     'Ana'
