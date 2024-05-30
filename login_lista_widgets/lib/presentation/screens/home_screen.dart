@@ -7,7 +7,34 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    List<String> users = ['Mia', 'Ana', 'Hola'];
+    List<String> type = [
+      'MOBA (Multiplayer Online Battle Arena)',
+      'Puzzle',
+      'Shooter FPS',
+      'Battle Royale / Shooter',
+      'Open-world RPG',
+      'Action RPG',
+      'Shooter / MOBA',
+      ' Sports (soccer)',
+      'Game creation platform',
+      'Racing',
+      'Sandbox / Building',
+      'Party / Social Deduction'
+    ];
+    List<String> games = [
+      'League Of Legends',
+      'Candy Crush Saga',
+      'Call Of Duty',
+      'Fortnite',
+      'Genshin Impact',
+      'Honkai Impact',
+      'Brawls Stars',
+      'FIFA 23',
+      'Roblox',
+      'Asphalt 9: Legends',
+      'Minecraft',
+      'Among Us'
+    ];
     return Scaffold(
       appBar: AppBar(
         title: const Text(
@@ -15,16 +42,29 @@ class HomeScreen extends StatelessWidget {
         ),
       ),
       body: ListView.builder(
-        itemCount: users.length,
+        
+        itemCount: games.length,
         itemBuilder: (context, index) {
-          
+          const EdgeInsets.all(8);
           return Card(
               child: ListTile(
             
-            title:Text(users[index]),
-            subtitle: Text("Usuario ${index+1}"),
-          )
-          );
+            onTap: () {},
+            tileColor: const Color.fromARGB(255, 42, 0, 110),
+            title: Text(
+              games[index],
+              style: const TextStyle(
+                  fontSize: 20,
+                  color: Color.fromARGB(255, 255, 255, 255),
+                  fontWeight: FontWeight.w400),
+            ),
+            subtitle: Text(type[index],
+            style: const TextStyle(
+                  fontSize: 14,
+                  color: Color.fromARGB(255, 195, 196, 215),
+                  fontWeight: FontWeight.w100),
+            ),
+          ));
         },
       ),
       /*Center(
