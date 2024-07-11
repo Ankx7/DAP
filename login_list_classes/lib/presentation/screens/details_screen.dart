@@ -17,12 +17,11 @@ class DetailsScreen extends StatelessWidget {
         body: Center(
             child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
               SizedBox(
                   width: 400, height: 400, child: Image.network(game.image)),
               SizedBox(
-                  width: 400,
+                  width: 300,
                   child: Text(
                     game.name,
                     style: const TextStyle(
@@ -31,7 +30,7 @@ class DetailsScreen extends StatelessWidget {
                         fontWeight: FontWeight.w400),
                   )),
               SizedBox(
-                  width: 400,
+                  width: 300,
                   child: Text(
                     game.description,
                     style: const TextStyle(
