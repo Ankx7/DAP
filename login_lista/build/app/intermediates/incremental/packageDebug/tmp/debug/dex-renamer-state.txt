@@ -1,0 +1,4 @@
+#Sun May 19 00:48:17 ART 2024
+base.0=C\:\\Users\\Usuario\\Desktop\\ORT\\5LA\\DAPa\\DAP\\login_lista\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -26,7 +26,7 @@ class LoginScreen extends StatelessWidget {
                 fontWeight: FontWeight.w400),
           ),
           SizedBox(
-            width: 500,
+            width: 400,
             child: TextField(
               controller: userController,
               decoration: InputDecoration(
@@ -53,7 +53,7 @@ class LoginScreen extends StatelessWidget {
             height: 10.0,
           ),
           SizedBox(
-            width: 500,
+            width: 400,
             child: TextField(
               obscureText: true, //puntos para el password
               controller: passController,
