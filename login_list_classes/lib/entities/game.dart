@@ -1,6 +1,7 @@
 class Game {
   String name;
-  String description;
+  String type;
   String image;
-  Game (this.name, this.description, this.image);
+  String description;
+  Game (this.name, this.type, this.image, this.description);
   }
