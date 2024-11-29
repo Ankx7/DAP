@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "526043519375",
+    "project_id": "dap-tp-final-9d7a4",
+    "storage_bucket": "dap-tp-final-9d7a4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526043519375:android:e922d3975da508286753fa",
+        "android_client_info": {
+          "package_name": "com.example.dap_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1kziI_uLPdQY61WKYfepBggbpMnas0tk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526043519375:android:99465879a1b037dc6753fa",
+        "android_client_info": {
+          "package_name": "com.example.firebase_tp_final"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1kziI_uLPdQY61WKYfepBggbpMnas0tk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
